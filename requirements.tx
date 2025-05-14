@@ -1,0 +1,11 @@
+telethon
+pymongo
+motor
+torch
+transformers
+pillow
+heroku3
+python-dotenv
+urllib3
+flask
+flask-restful
