@@ -25,9 +25,7 @@ DB_NAME = "kunaalkumar0091"
 LOGGER = False
 BOT_NAME = "Guardify"
 SUPPORT_ID = -1002440907656
+BOT_TOKEN = getenv("BOT_TOKEN", default=None)
 
-BOT1_TOKEN = getenv("BOT1_TOKEN", default=None)
-BOT2_TOKEN = getenv("BOT2_TOKEN", default=None)
-
-BOT1 = TelegramClient('bot1_session', API_ID, API_HASH).start(bot_token=BOT1_TOKEN)
-BOT2 = TelegramClient('bot2_session', API_ID, API_HASH).start(bot_token=BOT2_TOKEN)
+# Initialize the bot client
+BOT = TelegramClient('ꜱ ᴛ ᴏ ʀ ᴍ', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
