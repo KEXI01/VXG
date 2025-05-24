@@ -17,6 +17,7 @@ load_dotenv()
 OWNER_ID = int(getenv("OWNER_ID", default="7639428220"))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", default="6257927828").split()))
 SUDO_USERS.append(OWNER_ID)
+LOGGER_ID = int(getenv("LOGGER_ID"))
 SUDO_USERS.extend(DEV)  # Add DEV users if any
 
 SPOILER_MODE = os.environ.get("SPOILER_MODE", "True").lower() == "true"
