@@ -14,7 +14,7 @@ API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
 load_dotenv()
 
 # Load values from environment variables
-OWNER_ID = int(getenv("OWNER_ID", default="6257927828"))
+OWNER_ID = int(getenv("OWNER_ID", default="7639428220"))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", default="6257927828").split()))
 SUDO_USERS.append(OWNER_ID)
 SUDO_USERS.extend(DEV)  # Add DEV users if any
