@@ -8,4 +8,4 @@ WORKDIR /app/
 COPY . /app/
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 RUN chmod +x start.sh
-CMD ["bash", "start.sh"]
+CMD ["python3", "-m", "main.py"]
