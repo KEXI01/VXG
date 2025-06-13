@@ -5,8 +5,6 @@ from os import getenv
 from strings.helpers import DEV
 from dotenv import load_dotenv
 
-logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
-
 API_ID = 18136872
 API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
 
